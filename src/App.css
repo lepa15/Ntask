@@ -1,0 +1,231 @@
+.users-block {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    gap: 16px;
+}
+
+.users-block__sidebar-block {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    height: max-content;
+}
+
+.users-block__sidebar-block_title {
+    padding-left: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.users-block__sidebar-block_title span {
+    color: #477AFF;
+}
+
+.users-block__sidebar-block_tagline {
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+.users-block__sidebar-block_tagline:first-child {
+    margin-top: 16px;
+}
+
+.users-block__sidebar-block_tagline:hover {
+    color: #477AFF;
+    background-color: #E9EFFF;
+}
+
+.users-block__profile-block {
+    padding: 16px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.users-block__header-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-block__header-block_title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.users-block__header-block_button {
+    padding: 12px 16px;
+    background-color: #477AFF;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.users-block__header-block_button:hover {
+    box-shadow: 2px 2px 0 #495a86;
+}
+
+.users-block__header-block_button:active {
+    transform: translateY(1px);
+    box-shadow: 1px 1px 0 #495a86;
+}
+
+.users-block__title-block {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    background-color: #EEEEEE;
+    border: 1px solid #EEEEEE;
+    border-radius: 8px 8px 0 0;
+}
+
+.users-block__title-block_name {
+    padding: 8px 0 8px 8px;
+    line-height: 1.5;
+}
+
+.users-block__title-block_birthday {
+    padding: 8px 0 8px 8px;
+    line-height: 1.5;
+}
+
+.users-block__users-list-block {
+    border: 1px solid #EEEEEE;
+    border-radius: 0 0 8px 8px;
+}
+
+.users-block__user-block {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.users-block__user-block:last-child {
+    border-bottom: none;
+}
+
+.users-block__user-block > * {
+    border-right: 1px solid #EEEEEE;
+}
+
+.users-block__user-block > *:last-child {
+    border-right: none;
+}
+.users-block__user-block_name {
+    padding: 8px 0 8px 8px;
+    line-height: 1.5;
+}
+
+.users-block__user-block_birthday {
+    padding: 8px 0 8px 8px;
+    line-height: 1.5;
+}
+
+.btn {
+    vertical-align: middle;
+    text-align: center;
+    color: #477AFF;
+    background-color: inherit;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.btn:hover {
+    text-decoration: underline;
+}
+
+/*========================USER========================*/
+
+
+.user-reg-block {
+    padding: 16px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+}
+
+.user-reg-block__header-block_title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.user-reg-block__main-block {
+    margin-top: 10px;
+}
+
+.user-reg-block__main-block_description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    border-top: 1px solid #EEEEEE;
+}
+
+.user-reg-block__main-block_description:last-child {
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.user-reg-block__main-block_description input {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    border: 1px solid #AFAFAF;
+    border-radius: 20px;
+    width: 640px;
+    font-family: inherit;
+    font-size: inherit;
+    outline: none;
+}
+
+@media (max-width: 1100px) {
+    .user-reg-block__main-block_description input {
+        width: 340px;
+    }
+}
+
+.user-reg-block__buttons-block {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.user-reg-block__buttons-block_button {
+    padding: 12px 16px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.user-reg-block__buttons-block_button:hover {
+    box-shadow: 2px 2px 0 #495a86;
+}
+
+.user-reg-block__buttons-block_button:active {
+    transform: translateY(1px);
+    box-shadow: 1px 1px 0 #495a86;
+}
+
+.cansel-button {
+    background-color: #A0A0A0;
+}
+
+.cansel-button:hover {
+    box-shadow: 2px 2px 0 #4a4d50;
+}
+
+.change-button {
+    background-color: #477AFF;
+}
+
+
+
+/*============================================*/
